@@ -80,7 +80,7 @@ header .logo {
 header .item {
     font-family: "Poppins", Sans-serif;
     color: #343234;
-    font-weight:400;
+    font-weight:600px;;
     list-style: none;
     font-size: 0.938em;
     background-image: linear-gradient(currentColor, currentColor);
@@ -1070,4 +1070,28 @@ div.suscribe_newsletter {
 section.third_slide {
     background-image: url(../Coder_House/Desarrollo_Web/Wireframes/background-image-III.png);
     z-index: -1;
+}
+
+
+/*Footer*/ 
+
+.footer {
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+}
+
+.li_urgencias {
+    list-style-image: url(./public/imagen.jpg/emergencia_dental.png);
+}
+
+.li_whatsapp {
+    list-style-image: url(./public/imagen.jpg/whatsapp.png);
+}
+
+.li_fijo {
+    list-style-image: url(./public/imagen.jpg/Phone.png);
+}
+
+.li_mail {
+    list-style-image: url(./public/imagen.jpg/Mail.png);
 }

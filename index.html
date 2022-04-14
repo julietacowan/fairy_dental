@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,17 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fairy Dental Clínica Dental </title>
+    <link rel="shortcut icon" href="./public/imagen.jpg/faticon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="./stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="./main.js" rel="main" type="js">
     <meta name="description" content="Tu clínica dental de confianza con más de 40 años de experiencia. Contamos con los tratamientos más nuevos y sustentables del mercado. Además, somos expertos en odontología general, implantología, cirugía maxi-facial, prótesis removibles y fijas, y estética dental.">
     <meta name="keywords" content="ODONTOLOGÍA, ESTÉTICA DENTAL, ORTODONCIA, CLÍNICA DENTAL, EXPERIENCIA, HIGINISTA DENTAL, ORTODONCISTA, CIRUGIA, EMERGENCIAS DENTALES, URGENCIAS DENTALES ">
 </head>
 <body>
+    <script src="./main.js"></script>
+<!-- HEADER -->
     <header class="head-menu">
         <nav class="navbar flex-row container">
                     <picture class="logo">
-                        <img src="./public/imagen.jpg/logo.png" alt="logo" style="height: 63.78;" width="260">
+                        <a href="./index.html"><img src="./public/imagen.jpg/logo.png" alt="logo" style="height: 63.78;" width="260"></a>
                     </picture>
                         <ul class="menu flex-row">
                             <li class="item">
@@ -39,6 +44,13 @@
                         </ul>
         </nav>
     </header>
+
+
+<!-- FIN HEADER -->
+
+
+<!-- HOME -->
+
 <section class="padre_one">
     <div> 
         <h3 class="title__one">Tenemos un par de secretos para</h3>
@@ -48,20 +60,20 @@
     </div>
 
     <div> 
-        <button class="button__one">Reservar tu cita <a href="./pages/cita_previa.html" target="_blank"></a></button>
+        <a href="./pages/cita_previa.html"> <input type="button" value="Cita Previa" class="button__one"></a>
     </div>
     <div class="reseñas_block">
         <h2 class="reseñas">4.508</h2>
            <div class="star">
                 <img class="star" src="./public/imagen.jpg/estrella.png" alt="Estrella 1">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4"> 
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5">
+                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2" style="height: 20px; width: 20px;">
+                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3" style="height: 20px; width: 20px;">
+                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4" style="height: 20px; width: 20px;"> 
+                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5" style="height: 20px; width: 20px;">
                 <p class="reseñas_one">Críticas de 5 estrellas de clientes satisfechos</p>
            </div>
            <div>
-                <img class="leermaslogo" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"/> Leer más
+                <img class="leermaslogo" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"/> <a href="id_reseñas"></a> Leer más
             </div>
     </div>
     <div>
@@ -76,6 +88,12 @@
     </div>
 </section>
 
+
+<!-- FIN HOME -->
+
+
+<!-- SECTION DOS- NOSOTROS -->
+
 <section class="section_two">
     <div class="text_title">
         <h2 class="nosotros" id="id_nosotros">Nosotros</h2>
@@ -89,7 +107,7 @@
                     <p class="card__description_one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, volutpat bibendum iacus eleifend euismod urna</p>
                 </div>
                 <footer>
-                    <a class="btn"> Reserva tu cita</a>
+                    <a href="./pages/cita_previa.html" class="btn"> Reserva tu cita</a>
                 </footer>
             </div>
             <div class="card_two">
@@ -111,13 +129,20 @@
                     <p class="card__description_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, volutpat bibendum iacus eleifend euismod urna</p>
                 </div>
                 <footer>
-                    <a class="btn__three">Aprende más</a>
+                    <a href="./pages/nuestros_servicios.html" class="btn__three">Aprende más</a>
                 </footer>
             </div>
         </div>    
     </div>
 </section>
  
+
+<!-- FIN SECTION DOS- NOSOTROS -->
+
+
+<!-- SECTION TRES- SUSTENTABILIDAD -->
+
+
 <section>
     <div>  
         <div class="sustentabilidad">
@@ -127,14 +152,14 @@
                 <h2 class="sustentabilidad_one_one">elementos tóxicos</h2>
                 <p class="sustentabilidad_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, bibendum lacus eleifend euimod urna</p>
                     <div>
-                        <button class="btn_sustentabilidad">Reserva tu cita</button>
+                        <a href="./pages/cita_previa.html"><button class="btn_sustentabilidad">Reserva tu cita</button></a>
                     </div>
                     <div>  
-                        <img class="leermas" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"/>Leer más
+                       <a href="./pages/sustentabilidad.html"><img class="leermas" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"/>Leer más</a> 
                     </div>
             </div>
             <div class="image__sustentabilidad">
-                <img class="img_2" src="./public/imagen.jpg/img_2.png" style="width: 520px; height: 900 alt= "Paciente y Odontólogo"> 
+                <img class="img_2" src="./public/imagen.jpg/img_2.png" style="width: 520px; height: 900" alt= "Paciente y Odontólogo"> 
             </div>
         </div>        
     </div>
@@ -161,7 +186,7 @@
         <div class="nuestros_servicios_img">
             <img src="./public/imagen.jpg/Nuestros servicios.png" style="width: 550;" height="490" alt="Muela Iconográfica">
             <div>
-                <img class="leermas_two" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"> Leer más
+                <a href="./pages/nuestros_servicios.html"><img class="leermas_two" src="./public/imagen.jpg/leer_mas.png" alt="Leer más"> Leer más</a>
             </div>
         </div>
         <div class="nuestros_servicios_two">
@@ -177,86 +202,120 @@
     </div>
 </section>
 
+
+<!-- FIN SECTION TRES- SUSTENTABILIDAD -->
+
+
+<!-- SECTION CUATRO- RESEÑAS -->
+
+
 <section>
     <div class="resenas" id="id_reseñas">
         <div class="resena_one">
             <img class="inverted_comas" src="./public/imagen.jpg/inverted comas.png" alt="Comas" style="height: 50px; width: 50px;">
             <p class="resena_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, volutpat bibendum lacus eleifend euimod urna</p>
-            <h4 class="resena_h4">Kevin Smith</h4>
-            <div class="estrellas">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5">
+            <div class="text_block_r_i">
+                <h4 class="resena_h4">Kevin Smith</h4>
+                <div class="estrellas">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5" style="height: 20px; width: 20px;">
+                </div>
             </div>
         </div>
         <div class="resena_two">
             <img class="inverted_comas" src="./public/imagen.jpg/inverted comas.png" alt="Comas" style="height: 50px; width: 50px;">
             <p class="resena_p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, volutpat bibendum lacus eleifend euimod urna</p>
-            <div class="box_two">
-            <h4 class="resena_h42">Loren Sophia</h4>
-            <div class="estrellas">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5">
+            <div class="box_two"></div>
+            <div class="text_block_r_ii">
+                <h4 class="resena_h42">Loren Sophia</h4>
+                <div class="estrellas">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4" style="height: 20px; width: 20px;">
+                    <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5" style="height: 20px; width: 20px;">
+                </div>
             </div>
         </div>
         <div class="resena_three"> 
             <img class="inverted_comas" src="./public/imagen.jpg/inverted comas.png" alt="Comas" style="height: 50px; width: 50px;">
             <p class="resena_p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit quis netus faucibus habitant amet elit. Tellus sit massa ut mi. Vitae, volutpat bibendum lacus eleifend euimod urna</p>
-            <h4 class="resena_h43">Michael Gaga</h4>
-            <div class="estrellas">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4">
-                <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5">
-            </div>  
+            <div class="text_block_r_iii"> 
+                <h4 class="resena_h43">Michael Gaga</h4>
+                    <div class="estrellas">
+                        <img src="./public/imagen.jpg/estrella.png" alt="Estrella 1"  style="height: 20px; width: 20px;">
+                        <img src="./public/imagen.jpg/estrella.png" alt="Estrella 2" style="height: 20px; width: 20px;">
+                        <img src="./public/imagen.jpg/estrella.png" alt="Estrella 3" style="height: 20px; width: 20px;">
+                        <img src="./public/imagen.jpg/estrella.png" alt="Estrella 4" style="height: 20px; width: 20px;">
+                        <img src="./public/imagen.jpg/estrella.png" alt="Estrella 5" style="height: 20px; width: 20px;">
+                    </div>  
+            </div>
         </div>
     </div>
 </section>
 
+<!-- FIN SECTION CUATRO- RESEÑAS -->
+
+
+<!-- SECTION CINCO- CONTACTO- MODAL BOOTSTRAP-->
 <section>
-    <div>
-        <div class="container">
-            <div class="section_1">
-                <div class="sect_title_1" id="id_contacto">
-                    <h2>Contacto</h2>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Envíanos un Mensaje
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envíanos un Mensaje</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="flip-card">
+                <div class="body_form">
+                        <h5 class="title_contact">Recomendaciones, dudas, consultas y quejas:</h5>
+                            <form action="#">
+                                <label for="firstname"
+                                    <i class="contact_form_user">NOMBRE COMPLETO</i>
+                                    <input name="firstname" class="forms-fields" type="text">
+                                </label>
+                                <label>
+                                    <i class="contact_form_mail">CORREO ELECTRÓNICO</i>
+                                    <input type="email" class="form-fields" type="text">
+                                </label>
+                                <label>
+                                    <i class="contact_form_phone">TÉLEFONO</i>
+                                    <input name="contact" class="form-fields" type="text">
+                                </label>
+                                <label>
+                                    <i class="contact_form_contact">MENSAJE</i>
+                                    <textarea class="form-fields" name="textarea" id="" cols="30" rows="10"></textarea>
+                                </label>
+                                <button class="form-fields-button" value="send" type="submit">Enviar Mensaje <i class="contact_form_send"></i>
+                                </button>
+                            </form>
+                        
                 </div>
             </div>
         </div>
-        <div class="flip-card">
-            <div class="body_form">
-                    <h5 class="title_contact">Recomendaciones, dudas, consultas y quejas:</h5>
-                        <form action="#">
-                            <label for="firstname"
-                                <i class="contact_form_user">NOMBRE COMPLETO</i>
-                                <input name="firstname" class="forms-fields" type="text">
-                            </label>
-                            <label>
-                                <i class="contact_form_mail">CORREO ELECTRÓNICO</i>
-                                <input type="email" class="form-fields" type="text">
-                            </label>
-                            <label>
-                                <i class="contact_form_phone">TÉLEFONO</i>
-                                <input name="contact" class="form-fields" type="text">
-                            </label>
-                            <label>
-                                <i class="contact_form_contact">MENSAJE</i>
-                                <textarea class="form-fields" name="textarea" id="" cols="30" rows="10"></textarea>
-                            </label>
-                            <button class="form-fields-button" value="send" type="submit">Enviar Mensaje <i class="contact_form_send"></i>
-                            </button>
-                        </form>
-                    
-            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
+      </div>
+    </div>
+  </div>
 </section>
+<!-- SECTION CINCO- CONTACTO- MODAL BOOTSTRAP-->
 
-<!-- Footer -->
+<!-- SECTION FOOTER (BOOTSTRAP) -->
+
+
 <footer class="bg-dark text-center text-white" id="footer">
     <!-- Grid container -->
     <div class="container p-4">
@@ -338,6 +397,11 @@
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->
+
+
+  <!-- FIN SECTION FOOTER -->
+
+
+
 </body>
 </html>

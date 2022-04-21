@@ -61,11 +61,13 @@ a {
 
 /*Header*/
 
+
 button.nav-btn {
     border-radius: 1.375rem;
-    background-color: #062b3b;
+    background-color: #72B6B9;
     color: #ede9e0; 
-    border-color: #062b3b;
+    border-color: none;
+    border-style: hidden;
     box-shadow:10px 10px 140px #062B3B;
     padding-right: 1.563rem;
     padding-left: 1.563rem;
@@ -78,7 +80,6 @@ button.nav-btn:hover {
     background-color: #BCD9F4;
     color: #343234;
     box-shadow:10px 10px 140px #062B3B ;
-    border-color: #BCD9F4;
     font-family: Poppins, sans-serif;
     border-style: hidden;
 }
@@ -363,6 +364,11 @@ img.leermas {
     margin-left: 2rem;
 }
 
+.text_leer_mas {
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+}
+
 /*Body_four*/
 
 
@@ -518,6 +524,12 @@ img.leermas_two {
 
 /*Body_six*/
 
+.btn_modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 button.btn.btn-primary {
     background-color: #062B3B;
     border-style: none;
@@ -529,9 +541,13 @@ button.btn.btn-primary {
     padding-bottom: 0.313rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content:center ;
+    box-shadow:10px 10px 60px #062B3B;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #BCD9F4;
+    color: #062b3b;
+    box-shadow:10px 10px 60px #062B3B;
 }
 
 .body_form {
@@ -854,26 +870,26 @@ p.card-text {
     margin-top: 2rem;
     margin-left: 70rem;
     margin-bottom: 2rem;
- }
+}
 
 
  /*Sustentabilidad*/
 
 .title_s_i {
-     font-family: poppins, sans-serif;
-     font-size: 1rem;
-     color: #343234;
-     margin-left: 2.5rem;
-     margin-top: 2rem;
- }
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    color: #343234;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
 
 .title_s_ii {
-     font-family: poppins, sans-serif;
-     font-size: 2.5rem;
-     color: #343234;
-     margin-left: 2.5rem;
-     margin-top: 0.5rem;
- }
+    font-family: poppins, sans-serif;
+    font-size: 2.5rem;
+    color: #343234;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
 
 .title_s_iii {
     font-family: poppins, sans-serif;
@@ -1057,11 +1073,10 @@ ul.list-unstyled.mb-0.flex-row {
         flex-direction: column-reverse;
     }
     .text_sustentabilidad {
-        margin-top: 0rem;
+        margin-top: 2.5rem;
     }
     .sustentabilidad_one {
         margin-left: 0rem;
-        margin-top: 0rem;
         margin-bottom: 0rem;
     }
     .sustentabilidad_one_one {
@@ -1117,7 +1132,18 @@ ul.list-unstyled.mb-0.flex-row {
         height: 17.5rem;
         width: 14.938rem;
     }
-
+    .img_2 {
+        display: none;
+    }
+    .btn_sustentabilidad {
+        margin-top: 1.5rem;
+    }
+    .leer_mas_s {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1025px) {
@@ -1130,5 +1156,10 @@ ul.list-unstyled.mb-0.flex-row {
         height: 27.5rem;
         width: 24.938rem;
     }
-
+    .title_one {
+        font-size: 2.5rem;
+    }
+    .title_cp_iii {
+        margin-bottom: 2.5rem;
+    }
 }

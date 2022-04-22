@@ -734,6 +734,11 @@ p.card-text {
 
 /*Nuestros_Servicios*/
 
+.img_muela {
+    width: 37.5rem;
+    height: 34.922rem ;
+}
+
 .text_ns {
     font-family: poppins, sans-serif;
     font-size: 1rem;
@@ -992,11 +997,17 @@ ul.list-unstyled.mb-0.flex-row {
         display: flex;
         flex-direction: column;
         align-content: flex-start;
+        justify-content: center;
         margin-right: 2.5rem;
     }
+    .img_muela {
+        display: none;
+    }
     .nuestros_servicios_img {
-        height: 121.06px;
-        width: 130px;
+        height: 0rem;
+    }
+    .leermas_two {
+
     }
     .nuestros_servicios_two {
         display: flex;
@@ -1128,10 +1139,6 @@ ul.list-unstyled.mb-0.flex-row {
     img.img_back {
         margin-left: 15rem;
     }
-    .img_muela {
-        height: 17.5rem;
-        width: 14.938rem;
-    }
     .img_2 {
         display: none;
     }
@@ -1151,10 +1158,6 @@ ul.list-unstyled.mb-0.flex-row {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-    .img_muela {
-        height: 27.5rem;
-        width: 24.938rem;
     }
     .title_one {
         font-size: 2.5rem;

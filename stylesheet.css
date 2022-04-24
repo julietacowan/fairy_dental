@@ -15,7 +15,7 @@
 :root {
     --principal: #FFFFFF ;
     --secondary: #062b3b;
-    --font-primary: "Poppins", sans-serif;
+    --font-primary: 'Poppins', sans-serif;
     --font-primary-black: "Poppins Regular 400", sans-serif;
     --font-secundary: "Lora", sans-serif;
     --font-secondary-black: "Lora SemiBold 600", sans-serif;
@@ -64,7 +64,6 @@ a {
 
 /*Header*/
 
-
 button.nav-btn {
     border-radius: 1.375rem;
     background-color: #72B6B9;
@@ -76,14 +75,15 @@ button.nav-btn {
     padding-left: 1.563rem;
     padding-bottom: 0.313rem;
     padding-top: 0.313rem;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 button.nav-btn:hover {
     background-color: #BCD9F4;
     color: #343234;
     box-shadow:10px 10px 140px #062B3B ;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-style: hidden;
 }
 
@@ -92,7 +92,7 @@ button.nav-btn:hover {
 
 h3.title__one {
     color: #343234;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
     margin-left: 2rem;
     margin-top: 1.5rem;
@@ -115,7 +115,7 @@ h2.main__title_one {
 
 h3.title__one__one {
     color: #343234;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-display: var(--font-primary-black);
     font-size: 0.75rem;
@@ -131,13 +131,14 @@ h3.title__one__one {
     padding-left: 1.563rem;
     padding-top: 0.313rem;
     padding-bottom: 0.313rem;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
     border-color: #BCD9F4;
     margin-left: 2rem;
     margin-top: 1rem;
     box-shadow:5px 5px 200px #062B3B;
     border-style: hidden;
+    font-weight: 600;
 }
 
 .button__one:hover {
@@ -168,6 +169,8 @@ img.leermaslogo {
     vertical-align: middle;
     margin-top: 0.5rem;
     font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
 img.leermaslogo:hover {
@@ -196,25 +199,18 @@ div.chica_one {
     margin-right: 2.5rem;   
 }
 
-div.scroll {
-    position: absolute;
-    top: 80%;
-    right: 0;
-    z-index: 1;
-}
-
-
 /*Body_two*/
 
 h2.nosotros {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.8rem;
     color: #343234;
     margin-left: 2rem;
+    font-weight: 600;
 }
 
 p.p_nosotros {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     color: #343234;
     margin-left: 2rem;
@@ -226,14 +222,40 @@ div.card.text-center.d-flex {
     padding: 1rem;
     border-style: none;
     border-color: none;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 1rem;
+}
+
+.card-title-1 {
+    font-weight: 600;
+}
+
+.card-text-2 {
+    margin-bottom: 5.5rem;
+}
+.card-title-2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text-2-1 {
+    color: #CD3232;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+.card-title-3 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text-3 {
+    margin-bottom: 0.75rem;
 }
 
 a.btn.btn-primary {
     background-color: #343234;
     color: #ede9e0;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     padding-right: 1.563rem;
     padding-left: 1.563rem;
@@ -243,6 +265,7 @@ a.btn.btn-primary {
     border-color: none;
     margin-top: 0.8rem;
     border-style: none;
+    font-weight: 600;
 }
 
 a.btn.btn-primary:hover {
@@ -264,7 +287,7 @@ div.card.text-center.box_three {
     border-radius: 1.3rem;
     border-color: none;
     border-style: none;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ede9e0;
     margin-bottom: 1rem;
 }
@@ -273,7 +296,7 @@ div.card.text-center.box_three {
 a.btn.btn-primary.btn_three {
     background-color: #BCD9F4;
     color: #062b3b;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     padding-right: 1.563rem;
     padding-left: 1.563rem;
@@ -321,10 +344,11 @@ a.btn.btn-primary.btn_three:hover {
     font-size: 2rem;
     color: #343234;
     margin-left: 2rem;
+    font-weight: 600;
 }
 
 .sustentabilidad_two {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 2rem;
@@ -337,7 +361,7 @@ a.btn.btn-primary.btn_three:hover {
     background-color: #BCD9F4;
     border-radius: 22px;
     border-color: #BCD9F4;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #343234;
     box-shadow:10px 10px 60px #062B3B;
     padding-right: 1.563rem;
@@ -346,6 +370,7 @@ a.btn.btn-primary.btn_three:hover {
     padding-bottom: 0.313rem;
     margin-left: 2rem;
     border-style: hidden;
+    font-weight: 600;
 }
 
 .btn_sustentabilidad:hover {
@@ -355,16 +380,22 @@ a.btn.btn-primary.btn_three:hover {
     margin-left: 2rem;
 }
 
+.btn_leer_mas {
+    font-weight: 600;
+}
+
 img.leermas {
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     vertical-align: middle;
     margin-left: 2rem;
+    font-weight: 600;
 }
 
 .text_leer_mas {
     margin-top: 4rem;
     margin-left: 0.5rem;
+    font-weight: 600;
 }
 
 /*Body_four*/
@@ -374,12 +405,13 @@ img.leermas {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.813rem;
     color: #343234;
     text-align: center;
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
+    font-weight: 600;
 }
 
 div.nuestros_servicios_one {
@@ -389,21 +421,25 @@ div.nuestros_servicios_one {
 .nuestros_servicios_one ul {
     list-style-image: url(./public/imagen.jpg/Icono.png);
     margin-left: 5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #72B6B9;
     font-size: 1.375rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
+.nuestros_servicios_one li {
+    font-weight: 600;
+}
+
 .nuestros_servicios_one h4 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #72B6B9;
     font-size: 1.375rem;
 }
 
 .nuestros_servicios_one p {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #343234;
     font-size: 0.75rem;
 }
@@ -416,6 +452,10 @@ div.nuestros_servicios_one {
     height: 490px;
 }
 
+.leermas_two{
+    font-weight: 600;
+} 
+
 img.leermas_two {
     vertical-align: middle;
 }
@@ -423,6 +463,7 @@ img.leermas_two {
 .nuestros_servicios_two {
     margin-right: 2.5rem;
 }
+
 /*Body_five*/
 
 .estrellas {
@@ -460,18 +501,19 @@ img.leermas_two {
     justify-content: center;
 }
 .resena_p {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #FFFFFF;
     margin-left: 3rem;
 }
 
 .resena_h4 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem ;
     color: #FFFFFF;
     margin-top: 1rem;
     margin-left: 3rem;
+    font-weight: 600;
 }
 
 .resena_two {
@@ -480,18 +522,19 @@ img.leermas_two {
 }
 
 .resena_p2 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 3rem;
 }
 
 .resena_h42 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #343234;
     margin-top: 1rem;
     margin-left: 3rem;
+    font-weight: 600;
 }
 
 .resena_three {
@@ -500,18 +543,19 @@ img.leermas_two {
 }
 
 .resena_p3 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 3rem;
 }
 
 .resena_h43 {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #343234;
     margin-top: 1rem;
     margin-left: 3rem;
+    font-weight: 600;
 }
 
 .inverted_comas {
@@ -577,31 +621,31 @@ button.btn.btn-primary:hover {
 
 
 .title_contact {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #343234;
 }
 
 .contact_form_user {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #ede9e0;
 }
 
 .contact_form_mail {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #ede9e0;
 }
 
 .contact_form_phone {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #ede9e0;
 }
 
 .contact_form_contact {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
     color: #ede9e0;
 }
@@ -641,7 +685,7 @@ textarea{
 .form-fields-button {
     background-color: #062B3B;
     color: #FFFFFF;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-left: 1.563rem;
     padding-right: 1.563rem;
     padding-top: 0.313rem;
@@ -662,7 +706,7 @@ textarea{
 
 .footer {
     color: #FFFFFF;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .li_urgencias {
@@ -681,11 +725,19 @@ textarea{
     list-style-image: url(./public/imagen.jpg/Mail.png);
 }
 
+.text-uppercase {
+    font-weight: 600;
+}
+
 
 /*Cita_Previa*/
 
+.container {
+    margin-top: 2.5rem;
+}
+
 .title_cp {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 2.5rem;
@@ -693,19 +745,78 @@ textarea{
 }
 
 .title_cp_ii {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #343234;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
+    font-weight: 600;
 }
 
 .title_cp_iii {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.card-title-i {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text-i {
+    font-weight: 600;
+    color:#CD3232; 
+}
+
+.card-title-ii {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.btn.btn-primary-ii {
+    margin-top: 5rem;
+    font-weight: 600;
+    color:#343234;
+    background-color: #BCD9F4;
+    border-radius: 1.3rem;
+    padding-right: 1.563rem;
+    padding-left: 1.563rem;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    box-shadow:10px 10px 60px #062B3B;
+}
+
+.btn.btn-primary-ii:hover {
+    background-color: #062b3b;
+    color: #BCD9F4;
+}
+
+.card-title-iii {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.btn.btn-primary-iii {
+    margin-top: 4rem;
+    font-weight: 600;
+    color:#343234;
+    background-color: #BCD9F4;
+    border-radius: 1.3rem;
+    padding-right: 1.563rem;
+    padding-left: 1.563rem;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    box-shadow:10px 10px 60px #BCD9F4;
+}
+
+.btn.btn-primary-iii:hover {
+    background-color: #ede9e0;
+    color: #343234;
 }
 
 .img_emer {
@@ -738,22 +849,23 @@ p.card-text {
 }
 
 .text_ns {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-top: 3rem;
+    font-weight: 600;
 }
 
 .title_ns {
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #343234;
 }
 
 .text_ns_ii {
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
 }
@@ -772,7 +884,7 @@ p.card-text {
 .text_block_i {
     margin-left: 2.5rem;
     margin-top: 2.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -780,7 +892,7 @@ p.card-text {
 .text_block_ii {
     margin-left: 2.5rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -789,7 +901,7 @@ p.card-text {
 .text_block_iii {
     margin-left: 2.5rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -797,7 +909,7 @@ p.card-text {
 .text_block_iv {
     margin-left: 2.5rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em;
     color: #343234;
     margin-bottom: 0rem;
@@ -806,7 +918,7 @@ p.card-text {
 .text_block_v {
     margin-left: 20rem;
     margin-top: 2.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -815,7 +927,7 @@ p.card-text {
 .text_block_vi {
     margin-left: 20rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -824,7 +936,7 @@ p.card-text {
 .text_block_vii {
     margin-left: 20rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-bottom: 0rem;
@@ -833,11 +945,12 @@ p.card-text {
 .text_block_viii {
     margin-left: 20rem;
     margin-top: 0.5rem;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     font-style: bold;
     margin-bottom: 0rem;
+    font-weight: 600;
 }
 
 .btn_ns_i {
@@ -848,12 +961,13 @@ p.card-text {
     padding-bottom: 0.313rem;
     padding-top: 0.313rem;
     border-radius: 1.5rem ;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     box-shadow:10px 10px 140px #062B3B ;
     border-style: none;
     border-color: none;
     margin-top: 2rem;
+    font-weight: 600;
 }
 
 .btn_ns_i:hover {
@@ -879,7 +993,7 @@ p.card-text {
  /*Sustentabilidad*/
 
 .title_s_i {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #343234;
     margin-left: 2.5rem;
@@ -887,31 +1001,34 @@ p.card-text {
 }
 
 .title_s_ii {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #343234;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
+    font-weight: 600;
 }
 
 .title_s_iii {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #343234;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
+    font-weight: 600;
 }
 
 .title_s_iv {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
     color: #343234;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
+    font-weight: 600;
 }
 
 .p_s_i {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     margin-left: 2.5rem;
     margin-top: 1.5rem;
@@ -920,7 +1037,7 @@ p.card-text {
 }
 
 .p_s {
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     margin-left: 2.5rem;
     margin-top: 0.1rem;
@@ -935,7 +1052,7 @@ p.card-text {
     padding-right: 1.563rem;
     background-color: #062B3B;
     color: #ede9e0;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     box-shadow:10px 10px 140px #062B3B ;
     border-style: none;
@@ -943,6 +1060,7 @@ p.card-text {
     border-color: none;
     margin-top: 2rem;
     margin-left: 2.5rem;
+    font-weight: 600;
 }
 
 .btn_s:hover {
@@ -954,6 +1072,7 @@ p.card-text {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 6rem;
+    margin-top: 1.5rem;
 }
 
 .content {
